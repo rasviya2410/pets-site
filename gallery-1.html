@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height:300px;
+  padding: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: grid;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/fish-1.jpg">
+      <img src="web img/fish-1.jpg" alt="" width="600" height="400" data-aos="flip-left">
+    
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/fish-7.jpg">
+      <img src="web img/fish-7.jpg" alt="Forest" width="600" height="400" data-aos="flip-left">
+    </a>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/fish-2.jpg">
+      <img src="web img/fish-2.jpg" alt="Forest" width="600" height="400" data-aos="flip-left">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/fish-4.jpg">
+      <img src="web img/fish-4.jpg" alt="Northern Lights" width="600" height="400" data-aos="flip-left">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/Tiger-Barb-Tropical-Fish.jpg">
+      <img src="web img/Tiger-Barb-Tropical-Fish.jpg" alt="Mountains" width="600" height="400" data-aos="flip-left">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/fish-5.jpg">
+      <img src="web img/fish-5.jpg" alt="" width="600" height="400" data-aos="flip-left">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="web img/fish-6.jpg">
+      <img src="web img/fish-6.jpg" alt="" width="600" height="400" data-aos="flip-left">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="web img/arowana.jpg">
+        <img src="web img/arowana.jpg" alt="Mountains" width="600" height="400" data-aos="flip-left">
+      </a>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1000,
+      });
+    </script>
+</body>
+</html>
